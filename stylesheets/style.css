@@ -93,19 +93,26 @@ body
 {
   right: 0;
 }
+.experiences a
+{
+  color: #484848;
+}
+.experiences a:hover
+{
+  text-decoration:none;
+}
 .exp-img
 {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 .exp-img img
 {
-  width:200px;
+  width:220px;
   margin-bottom: 10px;
 }
 .box-exp-img
 {
-  margin: 0 10px;
   width: 199px;
 }
 .box-exp-img a
@@ -119,11 +126,11 @@ body
 .logements
 {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 .logements img
 {
-  width: 350px;
+  width: 370px;
   margin-bottom: 10px;
 }
 .log-img a
@@ -137,36 +144,22 @@ body
 .log-img
 {
   width: 350px;
-  margin: 0 10px;
 }
-.footer
+.destination
 {
-  margin: 30px 30px;
+  display: flex;
+  justify-content: space-between;
 }
-.footer select
+.destination a
 {
-  width: 90%;
-  border: 1px solid rgba(214, 213, 213, 0.64);
-  border-radius: 0;
+  color: #484848;
 }
-.form-footer
+.destination a:hover
 {
-  margin: 0px 0px 20px 30px;
-  font-size: 130%;
+  text-decoration: none;
 }
-.footer-text
+.destination img
 {
-  margin-left: 90px;
-  width: 15%;
-  list-style: none;
-  line-height: 170%;
-}
-.footer-text h5
-{
-  font-weight: bold;
-}
-
-.footer-text a
-{
-  color: #A1A1A1;
+  width: 180px;
+  margin-bottom: 10px;
 }
